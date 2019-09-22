@@ -16,7 +16,7 @@ Many Thanks!
 
 Datasets can be downloaded [Here](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip)
 
-If you find that the results are prone to 0, please check that you run the code with <b>pytorch 0.3.1</b>
+If you find that the results are prone to 0, please check that you run the code with **pytorch 0.3.1** or change the accuracy calculation code from ***torch.sum(....)***  to  ***torch.sum(....).float()***
 
 
 Here are some samples for your reference:
